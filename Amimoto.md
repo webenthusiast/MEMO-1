@@ -13,6 +13,3 @@
 10. vi /etc/nginx/conf.d/default.confを編集
 11. service nginx restart
 12. mcryptがないエラー
-13. rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
-14. epel-release-6-8.9.amzn1.noarchがインストール済み
-15. perl -i.default -p -e 's/enabled=1/enabled=0/' /etc/yum.repos.d/epel.repoで優先度下げ
